@@ -1,0 +1,1 @@
+import{g as i}from"./core.esm-CHGmn4Nl.js";const f=e=>{let{transform:o}=e;return{...o,x:0}},g=e=>{let{activatorEvent:o,draggingNodeRect:t,transform:r}=e;if(t&&o){const s=i(o);if(!s)return r;const n=s.x-t.left,a=s.y-t.top;return{...r,x:r.x+n-t.width/2,y:r.y+a-t.height/2}}return r};export{f as r,g as s};
