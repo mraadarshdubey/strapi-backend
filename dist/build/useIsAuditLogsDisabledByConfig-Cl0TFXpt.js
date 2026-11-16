@@ -1,0 +1,1 @@
+import{b7 as a}from"./strapi-FVarp-gO.js";const n=()=>{const s=window.strapi.features.isEnabled(window.strapi.features.AUDIT_LOGS),{data:e,isLoading:i}=a(void 0,{skip:s===!1});return{isLoading:i,isDisabledByConfig:s===!0&&e?.data?.auditLogs?.enabled===!1}};export{n as u};
