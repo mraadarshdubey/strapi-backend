@@ -1,0 +1,1 @@
+import{ca as F}from"./strapi-BE_7gu8U.js";var o,f;function a(){if(f)return o;f=1;var n=F(),e=1/0,i=17976931348623157e292;function t(r){if(!r)return r===0?r:0;if(r=n(r),r===e||r===-e){var T=r<0?-1:1;return T*i}return r===r?r:0}return o=t,o}var u,I;function m(){if(I)return u;I=1;var n=a();function e(i){var t=n(i),r=t%1;return t===t?r?t-r:t:0}return u=e,u}export{m as r};

@@ -1,1 +1,0 @@
-import{bg as i}from"./strapi-FVarp-gO.js";const e="strapi-super-admin",r=s=>i(s)&&s.name==="ForbiddenError"&&typeof s.details=="object"&&s.details!==null&&Array.isArray(s.details.permissions);export{e as S,r as i};

@@ -1,1 +1,0 @@
-import{bc as r,bI as n,be as a,bd as e}from"./strapi-FVarp-gO.js";const o="api-token",t="transfer-token",i=r().shape({name:e().max(100).required(a.required.id),type:e().oneOf(["read-only","full-access","custom"]).optional(),description:e().nullable(),lifespan:n().integer().min(0).nullable().defined(a.required.id)});export{o as A,t as T,i as a};
